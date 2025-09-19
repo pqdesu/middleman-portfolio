@@ -13,8 +13,8 @@
 }
 
 .card-image img {
-  height: 400px;
-
+  width: 576px; //divisable of 1920px
+  height: 306px; //divisable of 1020px
   display: block;
   object-fit: fill;
 }
