@@ -1,34 +1,17 @@
-<div class="row my-5">
+<div class="row my-3">
   <div class="col-12">
     <div class="container">
       <div id="projects">
-        <h2> Projects</h2>
+        <h2>Projects</h2>
         <div class="break-line"></div>
-        <div class="cards">
-          <% data.projects.each do |project| %>
-            <%# Make carousel of screenshots of the project %>
-            <div class="card-product mx-auto">
-              <%= image_tag project.image, alt: "project image" %>
-            </div>
-              <div class="card-product-infos w-100">
-                <div class="d-flex flex-column justify-content-between align-items-start">
-                  <h2><%= project.name %></h2>
-                  <h5><%= project.role %></h5>
-                  <div class="card-links">
-                    <% link_to project.github, class: 'external-link', target: '_blank' do %>
-                      <i class="fa-brands fa-github"></i>
-                    <% end %>
-                    <% if project.online?  %>
-                      <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                        <i class="fas fa-external-link-alt"></i>
-                      <% end %>
-                    <% end %>
-                  </div>
-                </div>
-                <p><%= project.description %></p>
-              </div>
-          <% end %>
+        <% data.projects.each do |project| %>
+        <div class="d-flex cards my-3">
+          <div class="card-image">
+            <%= image_tag project.image, alt: "project image" %>
+          </div>
+          
         </div>
+        <% end %>
       </div>
     </div>
   </div>
