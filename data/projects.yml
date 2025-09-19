@@ -1,4 +1,5 @@
 - name: PetSpot
+  role: Full-Stack Developer + Project Leader
   description: Petspot is a user-friendly app designed to help dog owners easily find pet-friendly places. With map-based search and community-driven insights, it makes exploring with your dog simple, fun, and stress-free.
   image: projects/petspot_icon.png
   url: https://www.not_available_yet
