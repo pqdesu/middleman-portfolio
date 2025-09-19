@@ -1,7 +1,7 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 20px;
 }
 
 .card-product {
@@ -12,11 +12,11 @@
   position: relative;
 }
 
-.card-image {
-  height: 100px;
-  width: 100px;
-  object-fit: cover;
-  overflow: hidden;
+.card-image img {
+  height: 400px;
+  width: 500px;
+  display: block;
+  object-fit: fill;
 }
 
 .card-product h2 {
