@@ -1,35 +1,35 @@
 - name: PetSpot
   role: Full-Stack Developer + Project Leader
   description: Petspot is a user-friendly app designed to help dog owners easily find pet-friendly places. With map-based search and community-driven insights, it makes exploring with your dog simple, fun, and stress-free.
-  image: projects/petspot_icon.png
+  image: projects/placeholder_webpage.png
   url: https://www.not_available_yet
   github: https://github.com/pqdesu/pet-le-wagon
   online: false
 
 - name: Movie Watchlist
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/placeholder_webpage.png
   url: https://www.google.com
   github: https://www.github.com
   online: true
 
 - name: AI Assistant
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/placeholder_webpage.png
   url: https://www.google.com
   github: https://www.github.com
   online: true
 
 - name: Final project
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/placeholder_webpage.png
   url: https://www.google.com
   github: https://www.github.com
   online: true
 
 - name: Yelp
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/placeholder_webpage.png
   url: https://www.google.com
   github: https://www.github.com
   online: false
