@@ -16,8 +16,9 @@
             <p><%= project.description %></p>
             <%# create links %>
             <div class="button-social">
-              <%= link_to project.github, target: '_blank' do %>
-              <i class="fa-brands fa-github"></i>
+              <% link_to project.github, class: 'external-link', target: '_blank' do %>
+                <i class="fa-brands fa-github"></i>
+              <% end %>
             </div>
           </div>
         </div>
