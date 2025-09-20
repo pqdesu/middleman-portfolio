@@ -21,6 +21,8 @@ body {
   font-family: $body-font;
   font-weight: 300;
   font-style: normal;
+  background-image: url("/images/background_image.png");
+  background-attachment: fixed;
 }
 
 h2 {
