@@ -1,28 +1,30 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 24px;
+}
+
+.card-detail {
+  height: auto;
+  width: 400px;
 }
 
 .card-product {
   overflow: hidden;
   height: 280px;
-  background: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
+  width: 350px;
   align-items: center;
   position: relative;
 }
 
-.card-product img {
-  height: 184px;
-  width: 100%;
-  object-fit: cover;
+.card-image img {
+  height: auto; /* maintain aspect ratio */
+  display: block; /* removes inline gaps */
+  object-fit: cover; /* keeps nice crop without stretching */
+  border-radius: 8px; /* optional for nicer look */
 }
 
 .card-product h2 {
-  font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
@@ -30,7 +32,7 @@
 .card-product p {
   font-size: 12px;
   line-height: 1.4;
-  opacity: .7;
+  opacity: 0.7;
   margin-bottom: 0;
   margin-top: 8px;
 }
@@ -59,7 +61,7 @@
   font-size: 20px;
   &:hover {
     cursor: pointer;
-    color: $gray
+    color: $gray;
   }
 }
 
