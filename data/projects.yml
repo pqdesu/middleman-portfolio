@@ -4,7 +4,7 @@
   image: projects/placeholder_webpage.png #image has to be 1920x1020
   url: https://www.not_available_yet
   github: https://github.com/pqdesu/pet-le-wagon
-  online: false
+  online: true
 
 - name: Movie Watchlist
   description: Decent description of the app
