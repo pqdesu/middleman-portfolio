@@ -17,12 +17,17 @@
   bottom: 0;
 }
 
+.button-project i {
+  font-size: 1.3rem; /* adjust size */
+}
+
 .button-project {
-  padding: 0 16px;
   position: relative;
   font-size: 20px;
   color: #000000;
-
+  text-decoration: none;
+  padding: 0;
+  line-height: 1;
   &:hover {
     opacity: 0.5;
   }
