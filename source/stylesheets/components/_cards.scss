@@ -7,7 +7,6 @@
 .card-detail {
   height: auto;
   width: 400px;
-  margin-left: 50px;
 }
 
 .card-product {
@@ -19,10 +18,10 @@
 }
 
 .card-image img {
-  width: 576px; //divisable of 1920px
-  height: 306px; //divisable of 1020px
-  display: block;
-  object-fit: fill;
+  height: auto; /* maintain aspect ratio */
+  display: block; /* removes inline gaps */
+  object-fit: cover; /* keeps nice crop without stretching */
+  border-radius: 8px; /* optional for nicer look */
 }
 
 .card-product h2 {
