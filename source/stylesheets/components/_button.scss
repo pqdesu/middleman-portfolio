@@ -16,3 +16,19 @@
   right: 0;
   bottom: 0;
 }
+
+.button-project i {
+  font-size: 1.3rem; /* adjust size */
+}
+
+.button-project {
+  position: relative;
+  font-size: 20px;
+  color: #2f5fa7;
+  text-decoration: none;
+  padding: 0;
+  line-height: 1;
+  &:hover {
+    opacity: 0.5;
+  }
+}
