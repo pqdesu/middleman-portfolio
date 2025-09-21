@@ -3,12 +3,11 @@
     <div class="container">
       <div id="projects">
         <h2>Projects</h2>
-        <div class="break-line"></div>
-        <div class="spacing"></div>
+        <div class="break-line mb-md-5"></div>
         <% data.projects.each do |project| %>
         <div class="d-flex flex-column flex-md-row cards my-5">
           <%# Image has to be 1380x1020 %>
-          <div class="card-image shadow mx-auto ms-md-2 w-100">
+          <div class="card-image shadow mx-auto ms-md-2 w-100 mb-5 mt-md-5">
             <%= image_tag project.image, alt: "project image", class: "img-fluid" %>
           </div>
           <%# Details %>
