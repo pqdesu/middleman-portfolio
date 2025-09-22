@@ -1,1 +1,15 @@
 // Specific CSS for your home-page
+body {
+  background-image: url("/images/bg-image-darker-lines.png");
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}
+
+h2 {
+  font-weight: 600;
+}
