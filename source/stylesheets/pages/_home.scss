@@ -13,3 +13,11 @@ body {
 h2 {
   font-weight: 600;
 }
+
+.section-card {
+  background-color: $bg-color;
+  height: auto;
+  width: auto;
+  box-shadow: 0 2px 4px rgba(226, 226, 226, 0.2), 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 2rem;
+}
