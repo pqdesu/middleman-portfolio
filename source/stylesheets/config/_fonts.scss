@@ -1,12 +1,13 @@
 // Import Google fonts
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700|Work+Sans:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
 
 // Define fonts for body and headers
 // $body-font: "Work Sans", "Helvetica", "sans-serif";
 // $headers-font: "Quicksand", "Helvetica", "sans-serif";
 $body-font: "Comfortaa", "Helvetica", "sans-serif";
-$headers-font: "Comfortaa", "Helvetica", "sans-serif";
+$headers-font: "Baloo 2", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -21,4 +22,36 @@ body {
   font-family: $body-font;
   font-weight: 300;
   font-style: normal;
+}
+
+p {
+  font-size: 15px;
+}
+
+.big-title {
+  font-size: 35px;
+}
+
+.banner-name {
+  font-family: $body-font;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.banner-description {
+  font-family: $body-font;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.project-name {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.project-role {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
 }
