@@ -18,10 +18,11 @@
 }
 
 .card-image img {
-  height: auto; /* maintain aspect ratio */
-  display: block; /* removes inline gaps */
-  object-fit: cover; /* keeps nice crop without stretching */
-  border-radius: 8px; /* optional for nicer look */
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .card-product h2 {
