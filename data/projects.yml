@@ -8,7 +8,7 @@
 
 - name: Robobo
   role: Back-End Developer
-  description: Decent description of the app
+  description: Robobo is a AI-powered app that helps Japanese learners by breaking down sentences, explaining kanji meanings, and showing the correct readings.
   image: projects/robobo/robobo-1.png #image has to be 1380x1020
   url: https://www.google.com
   github: https://github.com/Brady-Moore/robobo
