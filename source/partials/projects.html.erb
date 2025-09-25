@@ -33,8 +33,9 @@
           </div>
         </div>
         <div class="small-spacing"></div>
-        <div class="break-line-small"></div>
-        <div class="spacing"></div>
+        <% if project.name != "Yelp" %>
+          <div class="break-line-small"></div>
+        <% end %>
         <% end %>
       </div>
     </div>
