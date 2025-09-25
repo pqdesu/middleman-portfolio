@@ -1,6 +1,6 @@
 // Specific CSS for your home-page
 body {
-  background-image: url("/images/bg-image.png");
+  background-image: url("/images/bg-image-gemini.png");
   background-attachment: fixed;
 }
 
@@ -15,10 +15,12 @@ h2 {
 }
 
 .section-card {
-  background-color: $bg-color;
+  background-color: #fcfcfd;
   height: auto;
   width: auto;
-  // box-shadow: 0 2px 4px rgba(226, 226, 226, 0.2), 0 4px 8px rgba(0, 0, 0, 0.15);
-  border-radius: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
   padding: 10px;
+  border: 1px solid;
+  border-color: #e6e6e6;
 }
