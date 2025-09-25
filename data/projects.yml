@@ -7,6 +7,7 @@
   online: true
 
 - name: Robobo
+  role: Back-End Developer
   description: Decent description of the app
   image: projects/robobo/robobo-1.png #image has to be 1380x1020
   url: https://www.google.com
