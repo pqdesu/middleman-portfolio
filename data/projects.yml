@@ -15,10 +15,11 @@
   online: false
 
 - name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder_webpage.png #image has to be 1380x1020
-  url: https://www.google.com
-  github: https://www.github.com
+  role: Developer
+  description: Movie Watchlist is a Ruby on Rails app built during Le Wagon’s bootcamp. It lets users create movie lists, add photos to lists using Cloudinary, add comments, and display posters using the TMDb API, with a clean Bootstrap design.
+  image: projects/movie-list/movie-list-1.png #image has to be 1380x1020
+  url: https://pq-movie-list-8c742b573089.herokuapp.com
+  github: https://github.com/pqdesu/rails-watch-list
   online: true
 
 - name: Yelp
