@@ -22,6 +22,14 @@
   github: https://github.com/pqdesu/rails-watch-list
   online: true
 
+- name: Digital Clock
+  role: Developer
+  description: A responsive web-based digital clock built with HTML, CSS, and JavaScript. The project features a sleek neon design with glowing time display and centered layout. It demonstrates clean UI design, use of custom fonts and JavaScript for real-time updates.
+  image: projects/digital-clock/digital-clock.png #image has to be 1380x1020
+  url: empty
+  github: https://github.com/pqdesu/digital-clock-js
+  online: false
+
 - name: Yelp
   description: Decent description of the app
   image: projects/placeholder_webpage.png #image has to be 1380x1020
