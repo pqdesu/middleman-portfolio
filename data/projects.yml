@@ -29,10 +29,3 @@
   url: empty
   github: https://github.com/pqdesu/digital-clock-js
   online: false
-
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder_webpage.png #image has to be 1380x1020
-  url: https://www.google.com
-  github: https://www.github.com
-  online: false
