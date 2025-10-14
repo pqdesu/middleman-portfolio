@@ -1,35 +1,31 @@
 - name: PetSpot
   role: Full-Stack Developer + Project Leader
   description: Petspot is a user-friendly app designed to help dog owners easily find pet-friendly places. With map-based search and community-driven insights, it makes exploring with your dog simple, fun, and stress-free.
-  image: projects/placeholder_webpage.png #image has to be 1380x1020
-  url: https://www.not_available_yet
+  image: projects/petspot/petspot-1.png #image has to be 1380x1020
+  url: https://petspot-45123ebac261.herokuapp.com/
   github: https://github.com/pqdesu/pet-le-wagon
   online: true
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder_webpage.png #image has to be 1380x1020
+- name: Robobo
+  role: Back-End Developer
+  description: Robobo is a AI-powered app that helps Japanese learners by breaking down sentences, explaining kanji meanings, and showing the correct readings.
+  image: projects/robobo/robobo-1.png #image has to be 1380x1020
   url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: AI Assistant
-  description: Decent description of the app
-  image: projects/placeholder_webpage.png #image has to be 1380x1020
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder_webpage.png #image has to be 1380x1020
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder_webpage.png #image has to be 1380x1020
-  url: https://www.google.com
-  github: https://www.github.com
+  github: https://github.com/Brady-Moore/robobo
   online: false
+
+- name: Movie Watchlist
+  role: Developer
+  description: Movie Watchlist is a Ruby on Rails app built during Le Wagon’s bootcamp. It lets users create movie lists, add photos to lists using Cloudinary, add comments, and display posters using the TMDb API, with a clean Bootstrap design.
+  image: projects/movie-list/movie-list-1.png #image has to be 1380x1020
+  url: https://pq-movie-list-8c742b573089.herokuapp.com
+  github: https://github.com/pqdesu/rails-watch-list
+  online: true
+
+- name: Digital Clock
+  role: Developer
+  description: A responsive web-based digital clock built with HTML, CSS, and JavaScript. The project features a sleek neon design with glowing time display and centered layout. It demonstrates clean UI design, use of custom fonts and JavaScript for real-time updates.
+  image: projects/digital-clock/digital-clock.png #image has to be 1380x1020
+  url: https://pedrosdigitalclockjs.netlify.app
+  github: https://github.com/pqdesu/digital-clock-js
+  online: true

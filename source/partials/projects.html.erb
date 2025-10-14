@@ -1,40 +1,41 @@
 <div class="row my-3">
   <div class="col-12 p-3">
-    <div class="container section-card">
+    <div class="container section-card p-3">
       <div id="projects">
         <h2  class="text-center mt-3 mb-3 big-title">Projects</h2>
         <div class="break-line mb-md-5"></div>
         <% data.projects.each do |project| %>
-        <div class="d-flex flex-column flex-md-row cards my-5">
-          <%# Image has to be 1380x1020 %>
-          <div class="card-image mx-auto ms-md-2 w-100 mb-5 mt-md-5">
-            <%= image_tag project.image, alt: "project image", class: "img-fluid" %>
-          </div>
-          <%# Details %>
-          <div class="d-flex flex-column justify-content-start mx-auto ms-md-5 my-auto card-detail w-100">
-            <h3 class="mb-3 project-name"><%= project.name %></h3>
-            <h5 class="mb-4 light-blue-text project-role"><%= project.role %></h5>
-            <p class=""><%= project.description %></p>
-            <%# Links %>
-            <div class="d-flex justify-content-end mt-5">
-              <div class="me-3">
-                <% link_to project.github, class: "button-project", target: '_blank' do %>
-                  <i class="fa-brands fa-github"></i>
-                <% end %>
-              </div>
-              <div class="me-3 justify-content-end">
-                <% if project.online? %>
-                  <% link_to project.url, class: "button-project", target: '_blank' do %>
-                    <i class="fas fa-external-link-alt"></i>
+          <div class="d-flex flex-column flex-md-row cards my-5">
+            <%# Image has to be 1380x1020 %>
+            <div class="card-image mx-auto ms-md-2 w-100 mb-5 mt-md-5">
+              <%= image_tag project.image, alt: "project image", class: "img-fluid" %>
+            </div>
+            <%# Details %>
+            <div class="d-flex flex-column justify-content-start mx-auto ms-md-5 my-auto card-detail w-100">
+              <h3 class="mb-3 project-name"><%= project.name %></h3>
+              <h5 class="mb-4 light-blue-text project-role"><%= project.role %></h5>
+              <p class=""><%= project.description %></p>
+              <%# Links %>
+              <div class="d-flex justify-content-end mt-5">
+                <div class="me-3">
+                  <% link_to project.github, class: "button-project", target: '_blank' do %>
+                    <i class="fa-brands fa-github"></i>
                   <% end %>
-                <% end %>
+                </div>
+                <div class="me-3 justify-content-end">
+                  <% if project.online? %>
+                    <% link_to project.url, class: "button-project", target: '_blank' do %>
+                      <i class="fas fa-external-link-alt"></i>
+                    <% end %>
+                  <% end %>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="small-spacing"></div>
-        <div class="break-line-small"></div>
-        <div class="spacing"></div>
+          <div class="small-spacing"></div>
+          <% if project.name != "Digital Clock" %>
+            <div class="break-line-small"></div>
+          <% end %>
         <% end %>
       </div>
     </div>
