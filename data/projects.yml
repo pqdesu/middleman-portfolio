@@ -22,6 +22,14 @@
   github: https://github.com/pqdesu/rails-watch-list
   online: true
 
+- name: Calculator
+  role: Developer
+  description: A web-based calculator built with HTML, CSS, and JavaScript. The project features a sleek glassmorphism design with soft gradients and modern buttons. It demonstrates clean UI design, custom styling, and dynamic JavaScript logic for real-time calculations.
+  image: projects/calculator-js/calculator-js.png #image has to be 1380x1020
+  url: https://pedrocalculatorjs.netlify.app
+  github: https://github.com/pqdesu/calculator-js
+  online: true
+
 - name: Digital Clock
   role: Developer
   description: A responsive web-based digital clock built with HTML, CSS, and JavaScript. The project features a sleek neon design with glowing time display and centered layout. It demonstrates clean UI design, use of custom fonts and JavaScript for real-time updates.
