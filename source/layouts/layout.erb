@@ -1,6 +1,15 @@
 <!doctype html>
 <html>
   <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5Q3FXVDV');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
@@ -14,7 +23,6 @@
     <%= javascript_include_tag "site" %>
     <title><%= current_page.data.title || "Pedro Sassaki | Portfolio & Web Development Projects" %></title>
     <meta name="description" content="Portfolio of Pedro Sassaki — former Production Manager turned Web Developer. Skilled in process optimization, team leadership, and delivering reliable, user-focused solutions.">
-
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="Pedro Sassaki | Portfolio & Web Development Projects" />
     <meta property="og:type" content="website" />
@@ -22,7 +30,6 @@
     <meta property="og:image" content="<%= image_path 'portfolio-preview.png' %>" />
     <meta property="og:description" content="Portfolio of Pedro Sassaki — former Production Manager turned Web Developer. Skilled in process optimization, team leadership, and delivering reliable, user-focused solutions." />
     <meta property="og:site_name" content="Pedro Sassaki Portfolio" />
-
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@yourhandle">
@@ -30,9 +37,12 @@
     <meta name="twitter:description" content="Former Production Manager turned Web Developer — showcasing transferable skills in process optimization, team leadership, and bootcamp projects.">
     <meta name="twitter:creator" content="@yourhandle">
     <meta name="twitter:image:src" content="<%= image_path 'portfolio-preview.png' %>">
-
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Q3FXVDV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <%= yield %>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
